@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.nav {
+    background: #0E185F;
+    height: 70px;
+    display: flex;
+    align-items: center; /* alinear al centro los links */
+    justify-content: space-evenly;
+}
+
+.nav__logo {
+    height: 100%;
+    background: #0E185F;
+} 
+
+.nav__img {
+    height: 100%;
+}
+
+.nav__link{
+    color: bisque;
+    text-decoration: none;
+    white-space: .5em;
+    padding-right: 1.2em;
+}
+
+.nav__link--color{
+    color:gainsboro
+}
