@@ -1,0 +1,52 @@
+
+
+.no-deco{
+    text-decoration: none;
+    color: #4E9F3D;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 44px;
+    text-align: center;
+    color: #1A4D2E;
+    text-shadow: .5px 1px black;
+    letter-spacing: .05em;
+}
+
+p{
+    font-family: 'Noto Serif', serif;;
+    font-size: 20px;
+    text-align: justify;
+    color:#464E2E;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p.capital::first-letter{
+    font-size: 80px;
+    float: left;
+    margin-right: 2px;
+    line-height: .9em;
+    padding-top: 0%;
+    background-color: beige;
+}
+
+a:hover{
+    color: #C56824;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.border{
+    border: 2px dashed rgb(196, 195, 195);
+    margin: 7.5% 5%;
+}
+
+
+
